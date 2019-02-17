@@ -1,5 +1,5 @@
 # toadstool
-        __.....__
+```        __.....__
      .'' _  o    '`.
    .' O (_)     () o`.
   .           O       .
@@ -12,7 +12,7 @@
          :     :
         I       l
         :       :
-        `._____.' 
+        `._____.' ```
         
 An overlay script that installs lauded security tools ontop of a fresh Ubuntu 18.xx desktop image.
 
