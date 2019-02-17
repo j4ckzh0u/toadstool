@@ -100,7 +100,7 @@ sudo apt-get install build-essential zlib1g-dev pkg-config libglib2.0-dev binuti
 cd ../;
 echo "************** INSTALLING *****************";
 echo "       -- unix privesc check --        	 ";
-echo "from https://github.com/Cisco-Talos/pyrebox/ ";
+echo "from https://github.com/pentestmonkey/ ";
 echo "*******************************************";
 git clone https://github.com/pentestmonkey/unix-privesc-check.git;
 echo "## SUCCESS: unix privesc checker  ##";
