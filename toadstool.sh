@@ -130,6 +130,14 @@ cd avet;
 ./install.sh;
 echo "## SUCCESS: Hwacha  ##";
 echo "--> launch with: python hwacha.py "
+echo "************** INSTALLING *****************";
+echo "     	 -- Hashcat --        	 ";
+echo "from https://hashcat.net/files/ ";
+echo "*******************************************";
+wget https://hashcat.net/files/hashcat-5.0.0.7z; 
+7z x hashcat-5.0.0.7z;
+echo "## SUCCESS: Hashcat  ##";
+echo "--> launch with: ./hashcat64.bin "
 
 echo "You can install Kali tools with: sudo katoolin";
 echo "You can install CTF tools individually by navigating to ctf-tools/";
