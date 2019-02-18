@@ -59,7 +59,6 @@
 * [bandit](https://pypi.python.org/pypi/bandit/) - Security oriented static analyser for python code.
 * [Progpilot](https://github.com/designsecurity/progpilot) - Static security analysis tool for PHP code.
 * [RegEx-DoS](https://github.com/jagracey/RegEx-DoS) - Analyzes source code for Regular Expressions susceptible to Denial of Service attacks.
------------------------
 * [OWASP Dependency Check](https://www.owasp.org/index.php/OWASP_Dependency_Check) - Open source static analysis tool that enumerates dependencies used by Java and .NET software code (with experimental support for Python, Ruby, Node.js, C, and C++) and lists security vulnerabilities associated with the depedencies. 
 * [VisualCodeGrepper](https://github.com/nccgroup/VCG) - Open source static code analysis tool with support for Java, C, C++, C#, PL/SQL, VB, and PHP. VisualCodeGrepper also conforms to OWASP best practices.
 * [ShellCheck](https://github.com/koalaman/shellcheck) - Static code analysis tool for shell script.
@@ -80,7 +79,6 @@
 * [ACSTIS](https://github.com/tijme/angularjs-csti-scanner) - Automated client-side template injection (sandbox escape/bypass) detection for AngularJS.
 * [SQLmate](https://github.com/UltimateHackers/sqlmate) - A friend of sqlmap that identifies sqli vulnerabilities based on a given dork and website (optional).
 * [JCS](https://github.com/TheM4hd1/JCS) - Joomla Vulnerability Component Scanner with automatic database updater from exploitdb and packetstorm.
---------------
 * [OWASP Zed Attack Proxy (ZAP)](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project) - Feature-rich, scriptable HTTP intercepting proxy and fuzzer for penetration testing web applications.
 * [ASafaWeb](https://asafaweb.com) - Free online web vulnerability scanner.
 
@@ -102,7 +100,6 @@
 * [IKEForce](https://github.com/SpiderLabs/ikeforce) - Command line IPSEC VPN brute forcing tool for Linux that allows group name/ID enumeration and XAUTH brute forcing capabilities.
 * [hping3](https://github.com/antirez/hping) - Network tool able to send custom TCP/IP packets.
 * [rshijack](https://github.com/kpcyrd/rshijack) - TCP connection hijacker, Rust rewrite of `shijack`.
------------
 * [Legion](https://github.com/GoVanguard/legion) - Graphical interface offering scriptable, configurable access to existing network infrastructure scanning and enumeration tools.
 * [Ncat](https://nmap.org/ncat/) - TCP/IP command line utility supporting multiple protocols.
 
@@ -111,7 +108,6 @@
 * [pwnat](https://github.com/samyk/pwnat) - Punches holes in firewalls and NATs.
 * [tgcd](http://tgcd.sourceforge.net/) - Simple Unix network utility to extend the accessibility of TCP/IP based network services beyond firewalls.
 * [Iodine](https://code.kryo.se/iodine/) - Tunnel IPv4 data through a DNS server; useful for exfiltration from networks where Internet access is firewalled, but DNS queries are allowed.
------------
 * [HTTPTunnel](https://tools.kali.org/maintaining-access/httptunnel) - Tunnel data over pure HTTP GET/POST requests.
 * [Data Exfiltration Toolkit (DET)](https://github.com/PaulSec/DET) - Proof of concept to perform data exfiltration using either single or multiple channel(s) at the same time.
 * [PassHunt](https://github.com/Dionach/PassHunt) - Search file systems for passwords.
@@ -135,7 +131,6 @@
 * [ACLight](https://github.com/cyberark/ACLight) - Script for advanced discovery of sensitive Privileged Accounts - includes Shadow Admins.
 * [ScanCannon](https://github.com/johnnyxmas/ScanCannon) - Python script to quickly enumerate large networks by calling `masscan` to quickly identify open ports and then `nmap` to gain details on the systems/services on those ports.
 * [fierce](https://github.com/mschwager/fierce) - Python3 port of the original `fierce.pl` DNS reconnaissance tool for locating non-contiguous IP space.
--------------
 * [Shodan](https://shodan.io/) - Database containing information on all accessible domains on the internet obtained from passive scanning.
   - [pyShodan](https://github.com/GoVanguard/pyShodan) - Python 3 script for interacting with Shodan API (requires valid API key).
 * [Netdiscover](https://github.com/alexxy/netdiscover) - Simple and quick network scanning tool.
@@ -153,7 +148,6 @@
 * [Dripcap](https://github.com/dripcap/dripcap) - Caffeinated packet analyzer.
 * [Netzob](https://github.com/netzob/netzob) - Reverse engineering, traffic generation and fuzzing of communication protocols.
 * [sniffglue](https://github.com/kpcyrd/sniffglue) - Secure multithreaded packet sniffer.
-----------------
 * [Yersinia](https://tools.kali.org/vulnerability-analysis/yersinia) - Packet and protocol analyzer with MITM capability.
 * [Fiddler](https://www.telerik.com/fiddler) - Cross platform packet capturing tool for capturing HTTP/HTTPS traffic.
 
@@ -167,7 +161,6 @@
 * [Ettercap](http://www.ettercap-project.org) - Comprehensive, mature suite for machine-in-the-middle attacks.
 * [BetterCAP](https://www.bettercap.org/) - Modular, portable and easily extensible MITM framework.
 * [MITMf](https://github.com/byt3bl33d3r/MITMf) - Framework for Man-In-The-Middle attacks.
-------------
 * [Responder](https://github.com/SpiderLabs/Responder) - Open source NBT-NS, LLMNR, and MDNS poisoner.
 * [Responder-Windows](https://github.com/lgandx/Responder-Windows) - Windows version of the above NBT-NS/LLMNR/MDNS poisoner.
 
@@ -186,7 +179,6 @@
 * [KRACK Detector](https://github.com/securingsam/krackdetector) - Detect and prevent KRACK attacks in your network.
 * [wifi-arsenal](https://github.com/0x90/wifi-arsenal) - Resources for Wi-Fi Pentesting.
 * [WiFi-Pumpkin](https://github.com/P0cL4bs/WiFi-Pumpkin) - Framework for rogue Wi-Fi access point attack.
--------------
 * [wifi-pickle](https://github.com/GoVanguard/wifi-pickle) - Fake access point attacks.
 * [MANA Toolkit](https://github.com/sensepost/mana) - Rogue AP and man-in-the-middle utility.
 
@@ -195,7 +187,6 @@
 * [tls_prober](https://github.com/WestpointLtd/tls_prober) - Fingerprint a server's SSL/TLS implementation.
 * [testssl.sh](https://github.com/drwetter/testssl.sh) - Command line tool which checks a server's service on any port for the support of TLS/SSL ciphers, protocols as well as some cryptographic flaws.
 * [crackpkcs12](https://github.com/crackpkcs12/crackpkcs12) - Multithreaded program to crack PKCS#12 files (`.p12` and `.pfx` extensions), such as TLS/SSL certificates.
--------------
 * [tlssled](https://tools.kali.org/information-gathering/tlssled) - Comprehensive TLS/SSL testing suite.
 * [SSL Labs](https://www.ssllabs.com/ssltest/) - Online TLS/SSL testing suite for revealing supported TLS/SSL versions and ciphers.
 
@@ -233,7 +224,6 @@
 * [Raccoon](https://github.com/evyatarmeged/Raccoon) - High performance offensive security tool for reconnaissance and vulnerability scanning.
 * [WhatWaf](https://github.com/Ekultek/WhatWaf) - Detect and bypass web application firewalls and protection systems.
 * [badtouch](https://github.com/kpcyrd/badtouch) - Scriptable network authentication cracker.
--------------
 * [Browser Exploitation Framework (BeEF)](https://github.com/beefproject/beef) - Command and control server for delivering exploits to commandeered Web browsers.
 * [sqlninja](http://sqlninja.sourceforge.net/) - Automated SQL injection and database takeover tool.
 * [wafw00f](https://github.com/EnableSecurity/wafw00f) - Identifies and fingerprints Web Application Firewall (WAF) products.
@@ -248,7 +238,6 @@
 * [Bless](https://github.com/bwrsandman/Bless) - High quality, full featured, cross-platform graphical hex editor written in Gtk#.
 * [wxHexEditor](http://www.wxhexeditor.org/) - Free GUI hex editor for GNU/Linux, macOS, and Windows.
 * [`hexedit`](https://github.com/pixel/hexedit) - Simple, fast, console-based hex editor.
--------------
 * [Cheat Engine](https://www.cheatengine.org/) - Memory debugger and hex editor for running applications.
 
 ### File Format Analysis Tools
@@ -267,14 +256,12 @@
 * [Shellter](https://www.shellterproject.com/) - Dynamic shellcode injection tool, and the first truly dynamic PE infector ever created.
 
 ### Hash Cracking Tools
-
 * [John the Ripper](http://www.openwall.com/john/) - Fast password cracker.
 * [CeWL](https://digi.ninja/projects/cewl.php) - Generates custom wordlists by spidering a target's website and collecting unique words.
 * [JWT Cracker](https://github.com/lmammino/jwt-cracker) - Simple HS256 JWT token brute force cracker.
 * [Rar Crack](http://rarcrack.sourceforge.net) - RAR bruteforce cracker.
 * [BruteForce Wallet](https://github.com/glv2/bruteforce-wallet) - Find the password of an encrypted wallet file (i.e. `wallet.dat`).
 * [StegCracker](https://github.com/Paradoxis/StegCracker) - Steganography brute-force utility to uncover hidden data inside files.
-------------------
 * [Hashcat](http://hashcat.net/hashcat/) - Fast hash cracking utility with support for most known hashes as well as OpenCL and CUDA acceleration.
 
 ### Windows Utilities
@@ -297,18 +284,14 @@
 * [SCOMDecrypt](https://github.com/nccgroup/SCOMDecrypt) - Retrieve and decrypt RunAs credentials stored within Microsoft System Center Operations Manager (SCOM) databases.
 * [LaZagne](https://github.com/AlessandroZ/LaZagne) - Credentials recovery project.
 * [Active Directory and Privilege Escalation (ADAPE)](https://github.com/hausec/ADAPE-Script) - Umbrella script that automates numerous useful PowerShell modules to discover security misconfigurations and attempt privilege escalation against Active Directory.
------------
 * [Headstart](https://github.com/GoVanguard/script-win-privescalate-headstart) - Lazy man's Windows privilege escalation tool utilizing PowerSploit.
 * [Hyena](https://www.systemtools.com/hyena/download.htm) - NetBIOS exploitation tool.
 
-
 ### GNU/Linux Utilities
-
 * [Linux Exploit Suggester](https://github.com/PenturaLabs/Linux_Exploit_Suggester) - Heuristic reporting on potentially viable exploits for a given GNU/Linux system.
 * [Lynis](https://cisofy.com/lynis/) - Auditing tool for UNIX-based systems.
 * [unix-privesc-check](https://github.com/pentestmonkey/unix-privesc-check) - Shell script to check for simple privilege escalation vectors on UNIX systems.
 * [Hwacha](https://github.com/n00py/Hwacha) - Post-exploitation tool to quickly execute payloads via SSH on one or more Linux systems simultaneously.
-----------
 
 ### macOS Utilities
 * [Bella](https://github.com/kdaoudieh/Bella) - Pure Python post-exploitation data mining and remote administration tool for macOS.
@@ -379,7 +362,6 @@
 * [pagodo](https://github.com/opsdisk/pagodo) - Automate Google Hacking Database scraping.
 * [surfraw](https://github.com/kisom/surfraw) - Fast UNIX command line interface to a variety of popular WWW search engines.
 * [GyoiThon](https://github.com/gyoisamurai/GyoiThon) - GyoiThon is an Intelligence Gathering tool using Machine Learning.
-------------
 * [Shodan](https://www.shodan.io/) - World's first search engine for Internet-connected devices.
   - - [pyShodan](https://github.com/GoVanguard/pyShodan) - Python 3 script for interacting with Shodan API (requires valid API key).
 * [Mxtoolbox](https://mxtoolbox.com/) - Email domain and DNS lookup.
@@ -430,7 +412,6 @@
 * [Frida](https://www.frida.re/) - Dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers.
 * [boxxy](https://github.com/kpcyrd/boxxy-rs) - Linkable sandbox explorer.
 ---------------
-* [VirusTotal](https://www.virustotal.com/#/home/upload) - Online malware scanner.
 * [Hybrid Analysis](https://www.hybrid-analysis.com/) - Online malware scanner.
 
 ### Physical Access Tools
@@ -443,6 +424,7 @@
 * [AT Commands](https://atcommands.org/) - Use AT commands over an Android device's USB port to rewrite device firmware, bypass security mechanisms, exfiltrate sensitive information, perform screen unlocks, and inject touch events.
 * [Bash Bunny](https://www.hak5.org/gear/bash-bunny) - Local exploit delivery tool in the form of a USB thumbdrive in which you write payloads in a DSL called BunnyScript.
 * [Packet Squirrel](https://www.hak5.org/gear/packet-squirrel) - Ethernet multi-tool designed to enable covert remote access, painless packet captures, and secure VPN connections with the flip of a switch.
+* [ChipWhisperer](http://chipwhisperer.com) - Complete open-source toolchain for side-channel power analysis and glitching attacks.
 
 ### Industrial Control and SCADA Systems
 * [Industrial Exploitation Framework (ISF)](https://github.com/dark-lbp/isf) - Metasploit-like exploit framework based on routersploit designed to target Industrial Control Systems (ICS), SCADA devices, PLC firmware, and more. 
@@ -459,5 +441,3 @@
 
 ### Social Engineering Tools
 * [GoVanguard/list-socialengineering-resources](https://github.com/GoVanguard/list-socialengineering-resources#social-engineering-tools) - GoVanguard's list of social engineering resources.
-### Side-channel Tools
-* [ChipWhisperer](http://chipwhisperer.com) - Complete open-source toolchain for side-channel power analysis and glitching attacks.
