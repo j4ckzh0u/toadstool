@@ -39,14 +39,15 @@ So far includes:
 * scapy, 
 * autosploit, 
 * pupy
+
 More to follow
 
 # FAQ
 **Q:What is the purpose of this project?**
-A: I liked the idea of having the security tools available in Kali installable on a fresh Ubuntu machine. Before embarking on creating a Kali tool installer script, I  checked to see if someone had done that and thankfully discovered Kaltoolin. This scratched most of my itch but I had numerous interesting tools I used not available by default in Kali and wanted a convenient way to these. The purpose of this project is to aggregate a large-ish set of tools that I and others I know use often that goes beyond the typical Kali install. 
+> A: I liked the idea of having the security tools available in Kali installable on a fresh Ubuntu machine. Before embarking on creating a Kali tool installer script, I  checked to see if someone had done that and thankfully discovered Kaltoolin. This scratched most of my itch but I had numerous interesting tools I used not available by default in Kali and wanted a convenient way to these. The purpose of this project is to aggregate a large-ish set of tools that I and others I know use often that goes beyond the typical Kali install. 
 
 **Q: What are the primary use cases for these tools?**
-A: Typical distros include a few quality tools for a variety of use cases. Mostly focusing on Web exploitation and Reconissance, but leaving a few very crucial tools out that are considered stock in the security development / reverse engineering community. By joining the common varieties of pentest, malware/exploit generation, forensic, radio frequency and reverse engineering tools under one script-umbrella it combines the strengths of many distrubtions and makes the process of kickstarting analysis much faster.
+> A: Typical distros include a few quality tools for a variety of use cases. Mostly focusing on Web exploitation and Reconissance, but leaving a few very crucial tools out that are considered stock in the security development / reverse engineering community. By joining the common varieties of pentest, malware/exploit generation, forensic, radio frequency and reverse engineering tools under one script-umbrella it combines the strengths of many distrubtions and makes the process of kickstarting analysis much faster.
 
 **Q: Why these tools?**
 > A: Many tools exist and perform similar (if not the same functions) as one another. These tools were chosen primarily because they were pinned to best-of lists, well received within various communities if not the staple tool of its type. There will be some duplication or overlap because some individuals prefer tool A or B for one reason or another, so tools weren't stripped out if there was some overlap.
