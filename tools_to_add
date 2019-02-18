@@ -23,6 +23,7 @@
 * [OSINT Tools](#osint-tools)
 * [Anonymity Tools](#anonymity-tools)
 * [Reverse Engineering Tools](#reverse-engineering-tools)
+* [Exploitation Tools] (#exploitation-tools)
 * [Radio Frequency Tools] (#rf-tools)
 * [Forensic Tools] (#forensic-tools)
 * [Steganography Tools] (#steganography-tools)
@@ -102,7 +103,57 @@
 * [rshijack](https://github.com/kpcyrd/rshijack) - TCP connection hijacker, Rust rewrite of `shijack`.
 * [Legion](https://github.com/GoVanguard/legion) - Graphical interface offering scriptable, configurable access to existing network infrastructure scanning and enumeration tools.
 * [Ncat](https://nmap.org/ncat/) - TCP/IP command line utility supporting multiple protocols.
-
+---------
+* [Bro](https://www.bro.org) - Protocol analyzer that operates at incredible
+  scale; both file and network protocols.
+* [BroYara](https://github.com/hempnall/broyara) - Use Yara rules from Bro.
+* [CapTipper](https://github.com/omriher/CapTipper) -  Malicious HTTP traffic
+  explorer.
+* [chopshop](https://github.com/MITRECND/chopshop) - Protocol analysis and
+  decoding framework.
+* [CloudShark](https://www.cloudshark.org) - Web-based tool for packet analysis
+  and malware traffic detection.
+* [Fiddler](https://www.telerik.com/fiddler) - Intercepting web proxy designed
+  for "web debugging."
+* [Hale](https://github.com/pjlantz/Hale) - Botnet C&C monitor.
+* [Haka](http://www.haka-security.org/) - An open source security oriented
+  language for describing protocols and applying security policies on (live)
+  captured traffic.
+* [HTTPReplay](https://github.com/jbremer/httpreplay) - Library for parsing
+  and reading out PCAP files, including TLS streams using TLS Master Secrets
+  (used in Cuckoo Sandbox).
+* [INetSim](http://www.inetsim.org/) - Network service emulation, useful when
+  building a malware lab.
+* [Laika BOSS](https://github.com/lmco/laikaboss) - Laika BOSS is a file-centric
+  malware analysis and intrusion detection system.
+* [Malcom](https://github.com/tomchop/malcom) - Malware Communications
+  Analyzer.
+* [Maltrail](https://github.com/stamparm/maltrail) - A malicious traffic
+  detection system, utilizing publicly available (black)lists containing
+  malicious and/or generally suspicious trails and featuring an reporting
+  and analysis interface.
+* [mitmproxy](https://mitmproxy.org/) - Intercept network traffic on the fly.
+* [Moloch](https://github.com/aol/moloch) - IPv4 traffic capturing, indexing
+  and database system.
+* [NetworkMiner](http://www.netresec.com/?page=NetworkMiner) - Network
+  forensic analysis tool, with a free version.
+* [ngrep](https://github.com/jpr5/ngrep) - Search through network traffic
+  like grep.
+* [PcapViz](https://github.com/mateuszk87/PcapViz) - Network topology and
+  traffic visualizer.
+* [Python ICAP Yara](https://github.com/RamadhanAmizudin/python-icap-yara) - An
+  ICAP Server with yara scanner for URL or content.
+* [Squidmagic](https://github.com/ch3k1/squidmagic) - squidmagic is a tool
+  designed to analyze a web-based network traffic to detect central command
+  and control (C&C) servers and malicious sites, using Squid proxy server and
+  Spamhaus.
+* [Tcpdump](http://www.tcpdump.org/) - Collect network traffic.
+* [tcpick](http://tcpick.sourceforge.net/) - Trach and reassemble TCP streams
+  from network traffic.
+* [tcpxtract](http://tcpxtract.sourceforge.net/) - Extract files from network
+  traffic.
+* [Wireshark](https://www.wireshark.org/) - The network traffic analysis
+  tool.
 #### Exfiltration Tools
 * [DET](https://github.com/sensepost/DET) - Proof of concept to perform data exfiltration using either single or multiple channel(s) at the same time.
 * [pwnat](https://github.com/samyk/pwnat) - Punches holes in firewalls and NATs.
@@ -138,6 +189,10 @@
 * [LdapMiner](https://sourceforge.net/projects/ldapminer/) - Multiplatform LDAP enumeration utility.
 * [ldapsearch](https://linux.die.net/man/1/ldapsearch) - Linux command line utility for querying LDAP servers.
 * [Pentest-Tools](https://pentest-tools.com/home) - Online suite of various different pentest related tools.
+--------------------------
+- [Bro](https://www.bro.org/) - An open-source network security monitor.
+- [Monit](https://linoxide.com/monitoring-2/monit-linux/) - A linux tool to check a host on the network (and other non-network activities). 
+- [Nipe](https://github.com/GouveaHeitor/nipe) - Nipe is a script to make Tor Network your default gateway.
 
 #### Protocol Analyzers and Sniffers
 * [tcpdump/libpcap](http://www.tcpdump.org/) - Common packet analyzer that runs under the command line.
@@ -228,6 +283,10 @@
 * [sqlninja](http://sqlninja.sourceforge.net/) - Automated SQL injection and database takeover tool.
 * [wafw00f](https://github.com/EnableSecurity/wafw00f) - Identifies and fingerprints Web Application Firewall (WAF) products.
 * [IIS-Shortname-Scanner](https://github.com/irsdl/IIS-ShortName-Scanner) - Command line tool to exploit the Windows IIS tilde information disclosure vulnerability.
+* [Hackbar](https://addons.mozilla.org/en-US/firefox/addon/hackbar/) - Firefox addon for easy web exploitation
+* [Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en) - Add on for chrome for debugging network requests
+* [W3af](https://github.com/andresriancho/w3af) -  Web Application Attack and Audit Framework.
+* [XSSer](http://xsser.sourceforge.net/) - Automated XSS testor
 
 ### Hex Editors
 * [HexEdit.js](https://hexed.it) - Browser-based hex editing.
@@ -381,7 +440,54 @@
 * [Amass](https://github.com/OWASP/Amass) - Subdomain enumeration via scraping, web archives, brute forcing, permutations, reverse DNS sweeping, TLS certificates, passive DNS data sources, etc.
 * [XRay](https://github.com/evilsocket/xray) - XRay is a tool for recon, mapping and OSINT gathering from public networks.
 * [Intel Techniques Online Tools](https://inteltechniques.com/menu.html) - Use the links to the left to access all of the custom search tools.
+--------------
 
+* [badips.com](https://www.badips.com/) - Community based IP blacklist service.
+* [boomerang](https://github.com/EmersonElectricCo/boomerang) - A tool designed
+  for consistent and safe capture of off network web resources.
+* [Cymon](https://cymon.io/) - Threat intelligence tracker, with IP/domain/hash
+  search.
+* [Desenmascara.me](http://desenmascara.me) - One click tool to retrieve as
+  much metadata as possible for a website and to assess its good standing.
+* [Dig](https://networking.ringofsaturn.com/) - Free online dig and other
+  network tools.
+* [dnstwist](https://github.com/elceef/dnstwist) - Domain name permutation
+  engine for detecting typo squatting, phishing and corporate espionage.
+* [IPinfo](https://github.com/hiddenillusion/IPinfo) - Gather information
+  about an IP or domain by searching online resources.
+* [Machinae](https://github.com/hurricanelabs/machinae) - OSINT tool for
+  gathering information about URLs, IPs, or hashes. Similar to Automator.
+* [mailchecker](https://github.com/FGRibreau/mailchecker) - Cross-language
+  temporary email detection library.
+* [MaltegoVT](https://github.com/michael-yip/MaltegoVT) - Maltego transform
+  for the VirusTotal API. Allows domain/IP research, and searching for file
+  hashes and scan reports.
+* [Multi rbl](http://multirbl.valli.org/) - Multiple DNS blacklist and forward
+  confirmed reverse DNS lookup over more than 300 RBLs.
+* [NormShield Services](https://services.normshield.com/) - Free API Services
+  for detecting possible phishing domains, blacklisted ip addresses and breached
+  accounts.
+* [PhishStats](https://phishstats.info/) - Phishing Statistics with search for
+  IP, domain and website title
+* [SecurityTrails](https://securitytrails.com/) - Historical and current WHOIS, 
+  historical and current DNS records, similar domains, certificate information
+  and other domain and IP related API and tools.
+* [SpamCop](https://www.spamcop.net/bl.shtml) - IP based spam block list.
+* [SpamHaus](https://www.spamhaus.org/lookup/) - Block list based on
+  domains and IPs.
+* [Sucuri SiteCheck](https://sitecheck.sucuri.net/) - Free Website Malware
+  and Security Scanner.
+* [Talos Intelligence](https://talosintelligence.com/) - Search for IP, domain
+  or network owner. (Previously SenderBase.)
+* [TekDefense Automater](http://www.tekdefense.com/automater/) - OSINT tool
+  for gathering information about URLs, IPs, or hashes.
+* [URLQuery](http://urlquery.net/) - Free URL Scanner.
+* [urlscan.io](https://urlscan.io/) - Free URL Scanner & domain information.
+* [Whois](https://whois.domaintools.com/) - DomainTools free online whois
+  search.
+* [Zeltser's List](https://zeltser.com/lookup-malicious-websites/) - Free
+  online tools for researching malicious websites, compiled by Lenny Zeltser.
+* [ZScalar Zulu](https://zulu.zscaler.com/#) - Zulu URL Risk Analyzer.
 ### Anonymity Tools
 * [Tor](https://www.torproject.org/) - Free software and onion routed overlay network that helps you defend against traffic analysis.
 * [OnionScan](https://onionscan.org/) - Tool for investigating the Dark Web by finding operational security issues introduced by Tor hidden service operators.
@@ -411,8 +517,390 @@
 * [rVMI](https://github.com/fireeye/rVMI) - Debugger on steroids; inspect userspace processes, kernel drivers, and preboot environments in a single tool.
 * [Frida](https://www.frida.re/) - Dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers.
 * [boxxy](https://github.com/kpcyrd/boxxy-rs) - Linkable sandbox explorer.
+--------------
+- [Androguard](https://github.com/androguard/androguard) - Reverse engineer Android applications
+- [Angr](https://github.com/angr/angr) - platform-agnostic binary analysis framework
+- [Apk2Gold](https://github.com/lxdvs/apk2gold) - Yet another Android decompiler
+- [ApkTool](http://ibotpeaches.github.io/Apktool/) - Android Decompiler
+- [Barf](https://github.com/programa-stic/barf-project) - Binary Analysis and Reverse engineering Framework
+- [Binary Ninja](https://binary.ninja/) - Binary analysis framework
+- [BinUtils](http://www.gnu.org/software/binutils/binutils.html) - Collection of binary tools
+- [BinWalk](https://github.com/devttys0/binwalk) - Analyze, reverse engineer, and extract firmware images.
+- [Boomerang](https://github.com/nemerle/boomerang) - Decompile x86 binaries to C
+- [ctf_import](https://github.com/docileninja/ctf_import) – run basic functions from stripped binaries cross platform
+- [Frida](https://github.com/frida/) - Dynamic Code Injection
+- [GDB](https://www.gnu.org/software/gdb/) - The GNU project debugger
+- [GEF](https://github.com/hugsy/gef) - GDB plugin
+- [Hopper](http://www.hopperapp.com/) - Reverse engineering tool (disassembler) for OSX and Linux
+- [IDA Pro](https://www.hex-rays.com/products/ida/) - Most used Reversing software
+- [Jadx](https://github.com/skylot/jadx) - Decompile Android files
+- [Java Decompilers](http://www.javadecompilers.com) - An online decompiler for Java and Android APKs
+- [Krakatau](https://github.com/Storyyeller/Krakatau) - Java decompiler and disassembler
+- [Objection](https://github.com/sensepost/objection) - Runtime Mobile Exploration
+- [PEDA](https://github.com/longld/peda) - GDB plugin (only python2.7)
+- [Pin](https://software.intel.com/en-us/articles/pin-a-dynamic-binary-instrumentation-tool) A dynamic binary instrumentaion tool by Intel
+- [Plasma](https://github.com/joelpx/plasma) - An interactive disassembler for x86/ARM/MIPS which can generate indented pseudo-code with colored syntax.
+- [Pwndbg](https://github.com/pwndbg/pwndbg) - A GDB plugin that provides a suite of utilities to hack around GDB easily. 
+- [radare2](https://github.com/radare/radare2) - A portable reversing framework
+- [Triton](https://github.com/JonathanSalwan/Triton/) - Dynamic Binary Analysis (DBA) framework
+- [Uncompyle](https://github.com/gstarnberger/uncompyle) - Decompile Python 2.7 binaries (.pyc)
+- [WinDbg](http://www.windbg.org/) - Windows debugger distributed by Microsoft
+- [Xocopy](http://reverse.lostrealm.com/tools/xocopy.html) - Program that can copy executables with execute, but no read permission
+- [Z3](https://github.com/Z3Prover/z3) - a theorem prover from Microsoft Research
+IDA Pro - https://www.hex-rays.com/products/ida/support/download.shtml<br>
+Immunity Debugger - http://debugger.immunityinc.com/<br>
+Hopper - http://www.hopperapp.com/download.html<br>
+ILSpy - http://ilspy.net/<br>
+JD-GUI - http://jd.benow.ca/#jd-gui-overview<br>
+FFDec - http://www.free-decompiler.com/flash/download.html<br>
+dex2jar - http://code.google.com/p/dex2jar/<br>
+uncompyle2 - https://github.com/wibiti/uncompyle2<br>
+* [angr](https://github.com/angr/angr) - Platform-agnostic binary analysis
+  framework developed at UCSB's Seclab.
+* [bamfdetect](https://github.com/bwall/bamfdetect) - Identifies and extracts
+  information from bots and other malware.
+* [BAP](https://github.com/BinaryAnalysisPlatform/bap) - Multiplatform and
+  open source (MIT) binary analysis framework developed at CMU's Cylab.
+* [BARF](https://github.com/programa-stic/barf-project) - Multiplatform, open
+  source Binary Analysis and Reverse engineering Framework.
+* [binnavi](https://github.com/google/binnavi) - Binary analysis IDE for
+  reverse engineering based on graph visualization.
+* [Binary ninja](https://binary.ninja/) - A reversing engineering platform
+  that is an alternative to IDA.
+* [Binwalk](https://github.com/devttys0/binwalk) - Firmware analysis tool.
+* [Capstone](https://github.com/aquynh/capstone) - Disassembly framework for
+  binary analysis and reversing, with support for many architectures and
+  bindings in several languages.
+* [codebro](https://github.com/hugsy/codebro) - Web based code browser using
+  clang to provide basic code analysis.
+* [Cutter](https://github.com/radareorg/cutter) - GUI for Radare2.
+* [DECAF (Dynamic Executable Code Analysis Framework)](https://github.com/sycurelab/DECAF) 
+  - A binary analysis platform based   on QEMU. DroidScope is now an extension to DECAF.
+* [dnSpy](https://github.com/0xd4d/dnSpy) - .NET assembly editor, decompiler
+  and debugger.
+* [dotPeek](https://www.jetbrains.com/decompiler/) - Free .NET Decompiler and
+  Assembly Browser.
+* [Evan's Debugger (EDB)](http://codef00.com/projects#debugger) - A
+  modular debugger with a Qt GUI.
+* [Fibratus](https://github.com/rabbitstack/fibratus) - Tool for exploration
+  and tracing of the Windows kernel.
+* [FPort](https://www.mcafee.com/us/downloads/free-tools/fport.aspx) - Reports
+  open TCP/IP and UDP ports in a live system and maps them to the owning application.
+* [GDB](http://www.sourceware.org/gdb/) - The GNU debugger.
+* [GEF](https://github.com/hugsy/gef) - GDB Enhanced Features, for exploiters
+  and reverse engineers.
+* [hackers-grep](https://github.com/codypierce/hackers-grep) - A utility to
+  search for strings in PE executables including imports, exports, and debug
+  symbols.
+* [Hopper](https://www.hopperapp.com/) - The macOS and Linux Disassembler.
+* [IDA Pro](https://www.hex-rays.com/products/ida/index.shtml) - Windows
+  disassembler and debugger, with a free evaluation version.
+* [IDR](https://github.com/crypto2011/IDR) - Interactive Delphi Reconstructor
+  is a decompiler of Delphi executable files and dynamic libraries.
+* [Immunity Debugger](http://debugger.immunityinc.com/) - Debugger for
+  malware analysis and more, with a Python API.
+* [ILSpy](http://ilspy.net/) - ILSpy is the open-source .NET assembly browser and decompiler.
+* [Kaitai Struct](http://kaitai.io/) - DSL for file formats / network protocols /
+  data structures reverse engineering and dissection, with code generation
+  for C++, C#, Java, JavaScript, Perl, PHP, Python, Ruby.
+* [LIEF](https://lief.quarkslab.com/) - LIEF provides a cross-platform library
+  to parse, modify and abstract ELF, PE and MachO formats.
+* [ltrace](http://ltrace.org/) - Dynamic analysis for Linux executables.
+* [mac-a-mal](https://github.com/phdphuc/mac-a-mal) - An automated framework 
+  for mac malware hunting.
+* [objdump](https://en.wikipedia.org/wiki/Objdump) - Part of GNU binutils,
+  for static analysis of Linux binaries.
+* [OllyDbg](http://www.ollydbg.de/) - An assembly-level debugger for Windows
+  executables.
+* [PANDA](https://github.com/moyix/panda) - Platform for Architecture-Neutral
+  Dynamic Analysis.
+* [PEDA](https://github.com/longld/peda) - Python Exploit Development
+  Assistance for GDB, an enhanced display with added commands.
+* [pestudio](https://winitor.com/) - Perform static analysis of Windows
+  executables.
+* [Pharos](https://github.com/cmu-sei/pharos) - The Pharos binary analysis framework
+  can be used to perform automated static analysis of binaries.
+* [plasma](https://github.com/plasma-disassembler/plasma) - Interactive
+  disassembler for x86/ARM/MIPS.
+* [PPEE (puppy)](https://www.mzrst.com/) - A Professional PE file Explorer for
+  reversers, malware researchers and those who want to statically inspect PE
+  files in more detail.
+* [Process Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer) -
+  Advanced task manager for Windows.
+* [Process Hacker](http://processhacker.sourceforge.net/) - Tool that monitors
+  system resources.
+* [Process Monitor](https://docs.microsoft.com/en-us/sysinternals/downloads/procmon) -
+  Advanced monitoring tool for Windows programs.
+* [PSTools](https://docs.microsoft.com/en-us/sysinternals/downloads/pstools) - Windows
+  command-line tools that help manage and investigate live systems.
+* [Pyew](https://github.com/joxeankoret/pyew) - Python tool for malware
+  analysis.
+* [PyREBox](https://github.com/Cisco-Talos/pyrebox) - Python scriptable reverse
+  engineering sandbox by the Talos team at Cisco.
+* [QKD](https://github.com/ispras/qemu/releases/) - QEMU with embedded WinDbg
+  server for stealth debugging.
+* [Radare2](http://www.radare.org/r/) - Reverse engineering framework, with
+  debugger support.
+* [RegShot](https://sourceforge.net/projects/regshot/) - Registry compare utility
+  that compares snapshots.
+* [RetDec](https://retdec.com/) - Retargetable machine-code decompiler with an
+  [online decompilation service](https://retdec.com/decompilation/) and
+  [API](https://retdec.com/api/) that you can use in your tools.
+* [ROPMEMU](https://github.com/Cisco-Talos/ROPMEMU) - A framework to analyze, dissect
+  and decompile complex code-reuse attacks.
+* [SMRT](https://github.com/pidydx/SMRT) - Sublime Malware Research Tool, a
+  plugin for Sublime 3 to aid with malware analyis.
+* [strace](https://sourceforge.net/projects/strace/) - Dynamic analysis for
+  Linux executables.
+* [Triton](https://triton.quarkslab.com/) - A dynamic binary analysis (DBA) framework.
+* [Udis86](https://github.com/vmt/udis86) - Disassembler library and tool
+  for x86 and x86_64.
+* [Vivisect](https://github.com/vivisect/vivisect) - Python tool for
+  malware analysis.
+* [WinDbg](https://developer.microsoft.com/en-us/windows/hardware/download-windbg) - multipurpose debugger for the Microsoft Windows computer operating system, used to debug user mode applications, device drivers, and the kernel-mode memory dumps.
+* [X64dbg](https://github.com/x64dbg/) - An open-source x64/x32 debugger for windows.
 ---------------
 * [Hybrid Analysis](https://www.hybrid-analysis.com/) - Online malware scanner.
+
+### Exploitation Tools
+- [DLLInjector](https://github.com/OpenSecurityResearch/dllinjector) - Inject dlls in processes
+- [libformatstr](https://github.com/hellman/libformatstr) - Simplify format string exploitation.
+- [Metasploit](http://www.metasploit.com/) - Penetration testing software
+- [one_gadget](https://github.com/david942j/one_gadget) -  A tool to find the one gadget `execve('/bin/sh', NULL, NULL)` call
+  - `gem install one_gadget`
+- [Pwntools](https://github.com/Gallopsled/pwntools) - CTF Framework for writing exploits
+- [Qira](https://github.com/BinaryAnalysisPlatform/qira) - QEMU Interactive Runtime Analyser
+- [ROP Gadget](https://github.com/JonathanSalwan/ROPgadget) - Framework for ROP exploitation
+- [V0lt](https://github.com/P1kachu/v0lt) - Security CTF Toolkit
+* [exploit pack] (https://github.com/juansacco/exploitpack) - 
+
+### Forensic Tools
+- [Audacity](http://sourceforge.net/projects/audacity/) - Analyze sound files (mp3, m4a, whatever)
+  - `apt-get install audacity`
+- [Bkhive and Samdump2](http://sourceforge.net/projects/ophcrack/files/samdump2/) - Dump SYSTEM and SAM files
+  - `apt-get install samdump2 bkhive`
+- [CFF Explorer](http://www.ntcore.com/exsuite.php) - PE Editor
+- [Creddump](https://github.com/moyix/creddump) - Dump windows credentials
+- [DVCS Ripper](https://github.com/kost/dvcs-ripper) - Rips web accessible (distributed) version control systems
+- [Exif Tool](http://www.sno.phy.queensu.ca/~phil/exiftool/) - Read, write and edit file metadata
+- [Extundelete](http://extundelete.sourceforge.net/) - Used for recovering lost data from mountable images
+- [Fibratus](https://github.com/rabbitstack/fibratus) - Tool for exploration and tracing of the Windows kernel
+- [Foremost](http://foremost.sourceforge.net/) - Extract particular kind of files using headers
+  - `apt-get install foremost`
+- [Fsck.ext4](http://linux.die.net/man/8/fsck.ext3) - Used to fix corrupt filesystems
+- [Malzilla](http://malzilla.sourceforge.net/) - Malware hunting tool
+- [NetworkMiner](http://www.netresec.com/?page=NetworkMiner) - Network Forensic Analysis Tool
+- [PDF Streams Inflater](http://malzilla.sourceforge.net/downloads.html) - Find and extract zlib files compressed in PDF files
+- [ResourcesExtract](http://www.nirsoft.net/utils/resources_extract.html) - Extract various filetypes from exes
+- [Shellbags](https://github.com/williballenthin/shellbags) - Investigate NT\_USER.dat files
+- [UsbForensics](http://www.forensicswiki.org/wiki/USB_History_Viewing) - Contains many tools for usb forensics
+- [Volatility](https://github.com/volatilityfoundation/volatility) - To investigate memory dumps
+
+## Memory Forensics
+
+*Tools for dissecting malware in memory images or running systems.*
+* [BlackLight](https://www.blackbagtech.com/blacklight.html) - Windows/MacOS
+  forensics client supporting hiberfil, pagefile, raw memory analysis.
+* [DAMM](https://github.com/504ensicsLabs/DAMM) - Differential Analysis of
+  Malware in Memory, built on Volatility.
+* [evolve](https://github.com/JamesHabben/evolve) - Web interface for the
+  Volatility Memory Forensics Framework.
+* [FindAES](https://sourceforge.net/projects/findaes/) - Find AES
+  encryption keys in memory.
+* [inVtero.net](https://github.com/ShaneK2/inVtero.net) - High speed memory
+  analysis framework developed in .NET supports all Windows x64, includes
+  code integrity and write support.
+* [Muninn](https://github.com/ytisf/muninn) - A script to automate portions
+  of analysis using Volatility, and create a readable report.
+* [Rekall](http://www.rekall-forensic.com/) - Memory analysis framework,
+  forked from Volatility in 2013.
+* [TotalRecall](https://github.com/sketchymoose/TotalRecall) - Script based
+  on Volatility for automating various malware analysis tasks.
+* [VolDiff](https://github.com/aim4r/VolDiff) - Run Volatility on memory
+  images before and after malware execution, and report changes.
+* [Volatility](https://github.com/volatilityfoundation/volatility) - Advanced
+  memory forensics framework.
+* [VolUtility](https://github.com/kevthehermit/VolUtility) - Web Interface for
+  Volatility Memory Analysis framework.
+* [WDBGARK](https://github.com/swwwolf/wdbgark) -
+  WinDBG Anti-RootKit Extension.
+* [WinDbg](https://developer.microsoft.com/en-us/windows/hardware/windows-driver-kit) -
+  Live memory inspection and kernel debugging for Windows systems.
+
+scalpel - https://github.com/sleuthkit/scalpel<br>
+TrID - http://mark0.net/soft-trid-e.html<br>
+Digital Forensics Framework (DFF) - http://www.digital-forensic.org/download/<br>
+The Sleuth Kit (TSK) - http://www.sleuthkit.org/sleuthkit/download.php<br>
+### Steganography 
+* [Convert](http://www.imagemagick.org/script/convert.php) - Convert images b/w formats and apply filters
+* [Exif](http://manpages.ubuntu.com/manpages/trusty/man1/exif.1.html) - Shows EXIF information in JPEG files
+* [Exiftool](https://linux.die.net/man/1/exiftool) - Read and write meta information in files
+* [Exiv2](http://www.exiv2.org/manpage.html) - Image metadata manipulation tool
+* [ImageMagick](http://www.imagemagick.org/script/index.php) - Tool for manipulating images
+* [Outguess](https://www.freebsd.org/cgi/man.cgi?query=outguess+&apropos=0&sektion=0&manpath=FreeBSD+Ports+5.1-RELEASE&format=html) - Universal steganographic tool
+* [Pngtools](http://www.stillhq.com/pngtools/) - For various analysis related to PNGs
+  - `apt-get install pngtools`
+* [SmartDeblur](https://github.com/Y-Vladimir/SmartDeblur) - Used to deblur and fix defocused images
+* [Steganabara](https://www.openhub.net/p/steganabara) -  Tool for stegano analysis written in Java
+* [Stegbreak](https://linux.die.net/man/1/stegbreak) - Launches brute-force dictionary attacks on JPG image
+* [StegCracker](https://github.com/Paradoxis/StegCracker) - Steganography brute-force utility to uncover hidden data inside files 
+* [stegextract](https://github.com/evyatarmeged/stegextract) - Detect hidden files and text in images 
+* [Steghide](http://steghide.sourceforge.net/) - Hide data in various kind of images
+* [Stegsolve](http://www.caesum.com/handbook/Stegsolve.jar) - Apply various steganography techniques to images
+* [Zsteg](https://github.com/zed-0xff/zsteg/) - PNG/BMP analysis
+OpenStego – http://www.openstego.info/
+OutGuess – http://www.outguess.org/download.php
+Steghide – http://steghide.sourceforge.net/download.php
+StegFS – http://sourceforge.net/projects/stegfs/
+pngcheck – http://www.libpng.org/pub/png/apps/pngcheck.html
+GIMP – http://www.gimp.org/downloads/
+Audacity – http://audacity.sourceforge.net/download/
+MP3Stego – http://www.petitcolas.net/steganography/mp3stego/
+ffmpeg (for video analysis) – https://www.ffmpeg.org/download.html
+
+### Deobfuscation Tools
+## Deobfuscation
+
+*Reverse XOR and other code obfuscation methods.*
+
+* [Balbuzard](https://bitbucket.org/decalage/balbuzard/wiki/Home) - A malware
+  analysis tool for reversing obfuscation (XOR, ROL, etc) and more.
+* [de4dot](https://github.com/0xd4d/de4dot) - .NET deobfuscator and
+  unpacker.
+* [ex_pe_xor](http://hooked-on-mnemonics.blogspot.com/2014/04/expexorpy.html)
+  & [iheartxor](http://hooked-on-mnemonics.blogspot.com/p/iheartxor.html) -
+  Two tools from Alexander Hanel for working with single-byte XOR encoded
+  files.
+* [FLOSS](https://github.com/fireeye/flare-floss) - The FireEye Labs Obfuscated
+  String Solver uses advanced static analysis techniques to automatically
+  deobfuscate strings from malware binaries.
+* [NoMoreXOR](https://github.com/hiddenillusion/NoMoreXOR) - Guess a 256 byte
+  XOR key using frequency analysis.
+* [PackerAttacker](https://github.com/BromiumLabs/PackerAttacker) - A generic
+  hidden code extractor for Windows malware.
+* [un{i}packer](https://github.com/unipacker/unipacker) - Automatic and 
+  platform-independent unpacker for Windows binaries based on emulation.
+* [unpacker](https://github.com/malwaremusings/unpacker/) - Automated malware
+  unpacker for Windows malware based on WinAppDbg.
+* [unxor](https://github.com/tomchop/unxor/) - Guess XOR keys using
+  known-plaintext attacks.
+* [VirtualDeobfuscator](https://github.com/jnraber/VirtualDeobfuscator) -
+  Reverse engineering tool for virtualization wrappers.
+* [XORBruteForcer](http://eternal-todo.com/var/scripts/xorbruteforcer) -
+  A Python script for brute forcing single-byte XOR keys.
+* [XORSearch & XORStrings](https://blog.didierstevens.com/programs/xorsearch/) -
+  A couple programs from Didier Stevens for finding XORed data.
+* [xortool](https://github.com/hellman/xortool) - Guess XOR key length, as
+  well as the key itself.
+## Documents and Shellcode
+
+*Analyze malicious JS and shellcode from PDFs and Office documents. See also
+the [browser malware](#browser-malware) section.*
+
+* [AnalyzePDF](https://github.com/hiddenillusion/AnalyzePDF) - A tool for
+  analyzing PDFs and attempting to determine whether they are malicious.
+* [box-js](https://github.com/CapacitorSet/box-js) - A tool for studying JavaScript
+  malware, featuring JScript/WScript support and ActiveX emulation.
+* [diStorm](http://www.ragestorm.net/distorm/) - Disassembler for analyzing
+  malicious shellcode.
+* [JS Beautifier](http://jsbeautifier.org/) - JavaScript unpacking and deobfuscation.
+* [JS Deobfuscator](http://www.kahusecurity.com/2015/new-javascript-deobfuscator-tool/) -
+  Deobfuscate simple Javascript that use eval or document.write to conceal
+  its code.
+* [libemu](http://libemu.carnivore.it/) - Library and tools for x86 shellcode
+  emulation.
+* [malpdfobj](https://github.com/9b/malpdfobj) - Deconstruct malicious PDFs
+  into a JSON representation.
+* [OfficeMalScanner](http://www.reconstructer.org/code.html) - Scan for
+  malicious traces in MS Office documents.
+* [olevba](http://www.decalage.info/python/olevba) - A script for parsing OLE
+  and OpenXML documents and extracting useful information.
+* [Origami PDF](https://code.google.com/archive/p/origami-pdf) - A tool for
+  analyzing malicious PDFs, and more.
+* [PDF Tools](https://blog.didierstevens.com/programs/pdf-tools/) - pdfid,
+  pdf-parser, and more from Didier Stevens.
+* [PDF X-Ray Lite](https://github.com/9b/pdfxray_lite) - A PDF analysis tool,
+  the backend-free version of PDF X-RAY.
+* [peepdf](http://eternal-todo.com/tools/peepdf-pdf-analysis-tool) - Python
+  tool for exploring possibly malicious PDFs.
+* [QuickSand](https://www.quicksand.io/) - QuickSand is a compact C framework
+  to analyze suspected malware documents to identify exploits in streams of different
+  encodings and to locate and extract embedded executables.
+* [Spidermonkey](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey) -
+  Mozilla's JavaScript engine, for debugging malicious JS.
+  
+
+## File Carving
+
+*For extracting files from inside disk and memory images.*
+
+* [bulk_extractor](https://github.com/simsong/bulk_extractor) - Fast file
+  carving tool.
+* [EVTXtract](https://github.com/williballenthin/EVTXtract) - Carve Windows
+  Event Log files from raw binary data.
+* [Foremost](http://foremost.sourceforge.net/) - File carving tool designed
+  by the US Air Force.
+* [hachoir3](https://github.com/vstinner/hachoir3) - Hachoir is a Python library 
+  to view and edit a binary stream field by field.
+* [Scalpel](https://github.com/sleuthkit/scalpel) - Another data carving
+  tool.
+* [SFlock](https://github.com/jbremer/sflock) - Nested archive
+  extraction/unpacking (used in Cuckoo Sandbox).
+
+## Antivirus and other malware Detection and Classification
+
+* [AnalyzePE](https://github.com/hiddenillusion/AnalyzePE) - Wrapper for a
+  variety of tools for reporting on Windows PE files.
+* [Assemblyline](https://bitbucket.org/cse-assemblyline/assemblyline) - A scalable 
+  distributed file analysis framework.
+* [BinaryAlert](https://github.com/airbnb/binaryalert) - An open source, serverless
+  AWS pipeline that scans and alerts on uploaded files based on a set of
+  YARA rules.
+* [chkrootkit](http://www.chkrootkit.org/) - Local Linux rootkit detection.
+* [ClamAV](http://www.clamav.net/) - Open source antivirus engine.
+* [Detect-It-Easy](https://github.com/horsicq/Detect-It-Easy) - A program for
+  determining types of files.
+* [Exeinfo PE](http://exeinfo.pe.hu/) - Packer, compressor detector, unpack
+  info, internal exe tools.
+* [ExifTool](https://sno.phy.queensu.ca/~phil/exiftool/) - Read, write and
+  edit file metadata.
+* [File Scanning Framework](https://github.com/EmersonElectricCo/fsf) -
+  Modular, recursive file scanning solution.
+* [Generic File Parser](https://github.com/uppusaikiran/generic-parser) - A Single Library Parser to extract meta information,static analysis and detect macros within the files.
+* [hashdeep](https://github.com/jessek/hashdeep) - Compute digest hashes with
+  a variety of algorithms.
+* [HashCheck](https://github.com/gurnec/HashCheck) - Windows shell extension
+  to compute hashes with a variety of algorithms.
+* [Loki](https://github.com/Neo23x0/Loki) - Host based scanner for IOCs.
+* [Malfunction](https://github.com/Dynetics/Malfunction) - Catalog and
+  compare malware at a function level.
+* [Manalyze](https://github.com/JusticeRage/Manalyze) - Static analyzer for PE 
+executables.
+* [MASTIFF](https://github.com/KoreLogicSecurity/mastiff) - Static analysis
+  framework.
+* [MultiScanner](https://github.com/mitre/multiscanner) - Modular file
+  scanning/analysis framework
+* [nsrllookup](https://github.com/rjhansen/nsrllookup) - A tool for looking
+  up hashes in NIST's National Software Reference Library database.
+* [packerid](http://handlers.sans.org/jclausing/packerid.py) - A cross-platform
+  Python alternative to PEiD.
+* [PE-bear](https://hshrzd.wordpress.com/pe-bear/) - Reversing tool for PE
+  files.
+* [PEV](http://pev.sourceforge.net/) - A multiplatform toolkit to work with PE
+  files, providing feature-rich tools for proper analysis of suspicious binaries.
+* [Rootkit Hunter](http://rkhunter.sourceforge.net/) - Detect Linux rootkits.
+* [ssdeep](https://ssdeep-project.github.io/ssdeep/) - Compute fuzzy hashes.
+* [totalhash.py](https://gist.github.com/gleblanc1783/3c8e6b379fa9d646d401b96ab5c7877f) -
+  Python script for easy searching of the [TotalHash.cymru.com](https://totalhash.cymru.com/)
+  database.
+* [TrID](http://mark0.net/soft-trid-e.html) - File identifier.
+* [virustotal-falsepositive-detector](https://github.com/uppusaikiran/virustotal-falsepositive-detector) - A Tool to Analyze Virustotal Reports to Find Potential False Positives based on similarity of Detection Naming.
+* [YARA](https://plusvic.github.io/yara/) - Pattern matching tool for
+  analysts.
+* [Yara rules generator](https://github.com/Neo23x0/yarGen) - Generate
+  yara rules based on a set of malware samples. Also contains a good
+  strings DB to avoid false positives.
+* [Yara Finder](https://github.com/uppusaikiran/yara-finder) - A simple tool to yara match the file against various yara rules to find the indicators of suspicion.
 
 ### Physical Access Tools
 * [LAN Turtle](https://lanturtle.com/) - Covert "USB Ethernet Adapter" that provides remote access, network intelligence gathering, and MITM capabilities when installed in a local network.
