@@ -16,6 +16,22 @@ echo "        J       L		";
 echo "        :       :		";
 echo "        '._____.' 	";
 echo "  ---- Toadstool v.01 	";
+# Menu Categories:
+# Hash Cracking Tools
+#  john -> Kali
+#  hashcat -> here
+#  cewl -> Kali 
+#  jwt-cracker -> here
+#  rarcrack -> 
+#  stegcracker -> here
+
+# Radio Frequency (Non-Wifi)
+# Wifi  / Bluetooth Tools
+# Forensics
+# Static Analysis
+# Fuzzing
+# Reverse Engineering
+
 
 # Kali Tools
 echo "Downloading Kali Tools";
@@ -204,6 +220,83 @@ sudo apt -y install veil;
 echo "## SUCCESS: veil  ##";
 echo "--> launch with: sudo ./etc/veil/Veil.py";
 
+echo "************** INSTALLING *****************";
+echo "     	 -- jwt-cracker --        	 ";
+echo "from github.com/lmammino/jwt-cracker ";
+echo "*******************************************";
+npm install --global jwt-cracker;
+echo "## SUCCESS: jwt-cracker  ##";
+echo "--> launch with: jwt-cracker <token> [<alphabet>] [<maxLength>]"; 
+echo "************** INSTALLING *****************";
+echo "     	 -- StegCracker --        	 ";
+echo "from github.com/Paradoxis/StegCracker/ ";
+echo "*******************************************";
+sudo apt-get install steghide -y;
+sudo curl https://raw.githubusercontent.com/Paradoxis/StegCracker/master/stegcracker > /usr/local/bin/stegcracker;
+sudo chmod +x /usr/local/bin/stegcracker;
+echo "## SUCCESS: stegcracker  ##";
+echo "--> launch with: stegcracker <file> [<wordlist>]";
+echo "************** INSTALLING *****************";
+echo "     	 -- Tor --        	 ";
+echo "from torproject.org ";
+echo "*******************************************";
+wget https://www.torproject.org/dist/torbrowser/8.0.6/tor-browser-linux64-8.0.6_en-US.tar.xz
+tar -xvf tor-browser-linux64-8.0.6_en-US.tar.xz;
+echo "## SUCCESS: tor  ##";
+echo "--> launch with: ##";
+echo "************** INSTALLING *****************";
+echo "     	 -- scanless --        	 ";
+echo "from github.com/vesche/scanless ";
+echo "*******************************************";
+pip install scanless --user;
+echo "## SUCCESS: scanless  ##";
+echo "--> launch with: scanless ";
+
+echo "************** INSTALLING *****************";
+echo "     	 -- masscan --        	 ";
+echo "from github.com/robertdavidgraham/masscan ";
+echo "*******************************************";
+echo " ///// Installing Required Packages //////";
+echo " ///   for massscan              ///";
+sudo apt-get install git gcc make libpcap-dev;
+cd masscan;
+make -j 2;
+echo "## SUCCESS: massscan  ##";
+echo "--> launch with: bin/massscan ";
+cd ../;
+echo "************** INSTALLING *****************";
+echo "     	 -- smbmap --        	 ";
+echo "from github.com/ShawnDEvans/smbmap.git ";
+echo "*******************************************";
+git clone https://github.com/ShawnDEvans/smbmap.git;
+cd smbmap;
+pip install -r requirements.txt;
+echo "## SUCCESS: smbmap  ##";
+echo "--> launch with: python smbmap.py ";
+echo "************** INSTALLING *****************";
+echo "     	 -- xray --        	 ";
+echo "from github.com/evilsocket/xray ";
+echo "*******************************************";
+go get github.com/evilsocket/xray;
+cd $GOPATH/src/github.com/evilsocket/xray/;
+make;
+cd ../;
+echo "## SUCCESS: xray  ##";
+echo "--> launch with: xray -shodan-key YOUR_SHODAN_API_KEY -domain TARGET_DOMAIN ";
+echo "************** INSTALLING *****************";
+echo "     	 -- fierce --        	 ";
+echo "from github.com/mschwager/fierce ";
+echo "*******************************************";
+pip3 install fierce;
+echo "## SUCCESS: fierce  ##";
+echo "--> launch with: fierce -h ";
+echo "************** INSTALLING *****************";
+echo "     	 -- RootHelper --        	 ";
+echo "from github.com/NullArray/RootHelper ";
+echo "*******************************************";
+git clone https://github.com/NullArray/RootHelper.git
+echo "## SUCCESS: RootHelper  ##";
+echo "--> launch with: ./roothelper.sh ";
 
 echo "You can install Kali tools with: sudo katoolin";
 echo "You can install CTF tools individually by navigating to ctf-tools/";
