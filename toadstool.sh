@@ -139,6 +139,72 @@ wget https://hashcat.net/files/hashcat-5.0.0.7z;
 echo "## SUCCESS: Hashcat  ##";
 echo "--> launch with: ./hashcat64.bin "
 
+echo "************** INSTALLING *****************";
+echo "     	 -- pupy --        	 ";
+echo "from https://github.com/n1nj4sec/pupy ";
+echo "*******************************************";
+echo " ///// Installing Required Packages //////";
+echo " ///   for pupy                ///";
+sudo apt-get install git libssl1.0-dev libffi-dev python-dev python-pip tcpdump python-virtualenv;
+git clone --recursive https://github.com/n1nj4sec/pupy;
+cd pupy;
+python create-workspace.py -DG pupyw;
+export PATH=$PATH:~/.local/bin;
+echo "## SUCCESS: Pupy  ##";
+echo "--> launch with: pupysh, pupygen or pupysh-update "
+echo "************** INSTALLING *****************";
+echo "     	 -- Autosploit --        	 ";
+echo "from https://github.com/NullArray/Autosploit ";
+echo "*******************************************";
+sudo -s << EOF
+git clone https://github.com/NullArray/Autosploit.git
+cd AutoSploit
+chmod +x install.sh
+./install.sh
+python2 autosploit.py
+EOF
+echo "## SUCCESS: autosploit  ##";
+echo "--> launch with: python autosploit.py "
+echo "************** INSTALLING *****************";
+echo "     	 -- scapy --        	 ";
+echo "from https://github.com/secdev/scapy ";
+echo "*******************************************";
+git clone https://github.com/secdev/scapy
+echo "## SUCCESS: scapy  ##";
+echo "--> launch with: python ./run_scapy ";
+echo "************** INSTALLING *****************";
+echo "     	 -- crackmapexec --        	 ";
+echo "from https://github.com/byt3bl33d3r/CrackMapExec/wiki/Installation#debianubuntu ";
+echo "*******************************************";
+sudo apt-get install -y libssl-dev libffi-dev python-dev build-essential;
+pip install crackmapexec;
+echo "## SUCCESS: crackmapexec  ##";
+echo "--> launch with: cme ";
+echo "************** INSTALLING *****************";
+echo "     	 -- bettercap --        	 ";
+echo "from github.com/bettercap/bettercap ";
+echo "*******************************************";
+go get github.com/bettercap/bettercap
+echo "## SUCCESS: bettercap  ##";
+echo "--> launch with: bettercap ";
+echo "************** INSTALLING *****************";
+echo "     	 -- fluxion --        	 ";
+echo "from github.com/FluxionNetwork/fluxion ";
+echo "*******************************************";
+git clone https://www.github.com/FluxionNetwork/fluxion.git
+echo "## SUCCESS: fluxion  ##";
+echo "--> launch with: sudo ./fluxion.sh -i";
+
+echo "************** INSTALLING *****************";
+echo "     	 -- veil --        	 ";
+echo "from github.com/Veil-Framework/Veil ";
+echo "*******************************************";
+sudo apt -y install veil;
+/usr/share/veil/config/setup.sh --force --silent
+echo "## SUCCESS: veil  ##";
+echo "--> launch with: sudo ./etc/veil/Veil.py";
+
+
 echo "You can install Kali tools with: sudo katoolin";
 echo "You can install CTF tools individually by navigating to ctf-tools/";
 
