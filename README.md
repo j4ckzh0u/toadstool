@@ -38,7 +38,16 @@ So far includes:
 * crackmapexec, 
 * scapy, 
 * autosploit, 
-* pupy
+* pupy,
+* RootHelper, 
+* Fierce, 
+* Xray, 
+* SmbMap, 
+* masscan, 
+* scanless, 
+* tor, 
+* stegcracker, 
+* jwt-cracker
 
 More to follow
 
